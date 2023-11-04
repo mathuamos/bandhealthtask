@@ -4,12 +4,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class FileTaks {
+public class Task1OnFile {
 
 
     public static void main(String[] args) {
         try {
-            File inputFile = new File("input.txt"); // Change "input.txt" to the actual filename
+            File inputFile = new File("input.txt");
             Scanner scanner = new Scanner(inputFile);
             int maxCalories = 0;
             int currentElfCalories = 0;
